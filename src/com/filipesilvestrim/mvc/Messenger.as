@@ -5,7 +5,9 @@
  * Time: 15:54
  * To change this template use File | Settings | File Templates.
  */
-package {
+package com.filipesilvestrim.mvc {
+import com.filipesilvestrim.mvc.Facade;
+import com.filipesilvestrim.mvc.IMVC;
 
 /**
  * This is the connection pipe class.

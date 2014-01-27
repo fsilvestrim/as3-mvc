@@ -5,7 +5,7 @@
  * Time: 15:46
  * To change this template use File | Settings | File Templates.
  */
-package {
+package com.filipesilvestrim.mvc {
 public class Controller extends Messenger {
     private var _view   : View;
     private var _model  : Object;

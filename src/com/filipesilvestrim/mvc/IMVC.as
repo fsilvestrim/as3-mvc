@@ -5,7 +5,7 @@
  * Time: 23:32
  * To change this template use File | Settings | File Templates.
  */
-package {
+package com.filipesilvestrim.mvc {
 public interface IMVC {
     function register():void;
     function dispose():void;

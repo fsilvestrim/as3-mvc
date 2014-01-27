@@ -4,9 +4,16 @@
     <configurations>
       <configuration name="as3-mvc" pure-as="true" output-type="Library" output-file="as3-mvc.swc" output-folder="$MODULE_DIR$/../Jungle/code/out/production/as3-mvc">
         <dependencies target-player="11.8">
+          <entries>
+            <entry module-name="as3-signals" build-configuration-name="as3-signals">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
           <sdk name="AIRSDK_Compiler" />
         </dependencies>
-        <compiler-options />
+        <compiler-options>
+          <option name="additionalOptions" value="-define+=IFDEF::dev,true" />
+        </compiler-options>
         <packaging-air-desktop />
         <packaging-android />
         <packaging-ios />
@@ -21,6 +28,7 @@
     </content>
     <orderEntry type="jdk" jdkName="AIRSDK_Compiler" jdkType="Flex SDK Type (new)" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="as3-signals" exported="" />
   </component>
 </module>
 

@@ -5,7 +5,7 @@
  * Time: 15:43
  * To change this template use File | Settings | File Templates.
  */
-package {
+package com.filipesilvestrim.mvc {
 import flash.utils.Dictionary;
 
 import org.osflash.signals.Signal;

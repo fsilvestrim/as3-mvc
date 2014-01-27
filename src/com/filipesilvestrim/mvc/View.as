@@ -5,7 +5,9 @@
  * Time: 15:48
  * To change this template use File | Settings | File Templates.
  */
-package {
+package com.filipesilvestrim.mvc {
+import com.filipesilvestrim.mvc.Messenger;
+
 public class View extends Messenger {
 
     private var _model : Object;
